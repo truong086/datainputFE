@@ -106,7 +106,7 @@ const login = async () => {
     }
     store.setIdAccount(res.data.content.id)
     store.setAccountName(res.data.content.username)
-    router.push("/Admin/dashboard");
+    router.push("/dashboard");
   } else {
     Swal.fire("Tài khoản hoặc mật khẩu không chính xác");
   }

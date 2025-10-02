@@ -42,7 +42,7 @@
                 <div class="collapse" id="dashboard">
                   <ul class="nav nav-collapse">
                     <li>
-                      <router-link to="/Admin/dashboard">
+                      <router-link to="/dashboard">
                         <span class="sub-item">Dashboard 1</span>
                       </router-link>
                     </li>
@@ -69,7 +69,7 @@
                       </a>
                     </li> -->
                     <li>
-                      <router-link to="/Admin/table">
+                      <router-link to="/table">
                         <span class="sub-item">Datatables</span>
                       </router-link>
                     </li>

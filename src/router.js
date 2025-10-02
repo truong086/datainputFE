@@ -24,7 +24,7 @@ const routes = [
     },
   },
   {
-    path: "/Admin",
+    path: "/",
     name: "admin",
     component: AdminPage,
     meta: {
