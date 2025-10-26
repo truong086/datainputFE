@@ -4,6 +4,7 @@ import LoginPage from "./components/loginPage.vue";
 import AdminPage from "./components/Admin/indexPage.vue"
 import DasboardPage from "./components/Admin/dashboardPage.vue"
 import TablePage from "./components/Admin/tablePage.vue"
+import testPage from "./components/Admin/testGrip.vue"
 
 import { useCounterStore } from "./store";
 // import { path } from "ramda";
@@ -56,6 +57,11 @@ const routes = [
         path: "table",
         name: "table",
         component: TablePage
+      },
+      {
+        path: "test",
+        name: "test",
+        component: testPage
       }
     ]
   }
